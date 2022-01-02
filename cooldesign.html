@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Cool Design</title>
+    <link rel="stylesheet" href="styling/style.css">
+    <link rel="stylesheet" href="styling/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" >
+  </head>
+  <body>
+<!-- *************************************
+        start Setting-box
+************************************* -->
+   <div class="setting-box">
+    <div class="setting-icon">
+      <i class="fas fa-sliders-h s-icon"></i>
+    </div>
+    <div class="setting-content">
+      <div class="color-box">
+        <h4>Colors</h4>
+        <ul class="colorlist">
+          <li data-color="rgb(34,190,199)" class="active"></li>
+          <li data-color="#ea2c62"></li>
+          <li data-color="rgb(76, 174, 80)"></li>
+          <li data-color="#c62a88"></li>
+          <li data-color="#03c4a1"></li>
+        </ul>
+      </div>
+      <div class="randombackground-box">
+        <h4> random background</h4>
+        <ul class="options">
+          <li class="yes active" data-background="change">Yes</li>
+          <li class="no" data-background="nochange">No</li>
+        </ul>
+      </div>
+      <div class="showbullets">
+        <h4> showbullets</h4>
+        <ul class="options">
+          <li class="yes active" data-display="show">Yes</li>
+          <li class="no" data-display="hide">No</li>
+        </ul>
+      </div>
+      <button id="reset" type="reset" name="button">reset options</button>
+    </div>
+   </div>
+   <!-- *************************************
+           End Setting-box
+   ************************************* -->
+   <!-- *************************************
+           Start reference bullets
+   ************************************* -->
+<div class="reference">
+  <div class="sec-ref">
+    <div class="bullet">
+        <a href="#about"></a>
+    </div>
+    <div  class="sec-name">
+      about us
+    </div>
+  </div>
+  <div class="sec-ref">
+    <div class="bullet">
+      <a href="#skills"></a>
+    </div>
+    <div class="sec-name">
+      skills
+    </div>
+  </div>
+  <div class="sec-ref">
+    <div class="bullet">
+      <a href="#gallery"></a>
+    </div>
+    <div class="sec-name">
+     our gallery
+    </div>
+  </div>
+  <div class="sec-ref">
+    <div class="bullet">
+      <a href="#timeline"></a>
+    </div>
+    <div class="sec-name">
+      Timeline
+    </div>
+  </div>
+  <div class="sec-ref">
+    <div class="bullet">
+      <a href="#features"></a>
+    </div>
+    <div class="sec-name">
+      features
+    </div>
+  </div>
+  <div class="sec-ref">
+    <div class="bullet">
+      <a href="#testimonials"></a>
+    </div>
+    <div class="sec-name">
+      Testimonials
+    </div>
+  </div>
+</div>
+
+
+   <!-- *************************************
+           End reference bullets
+   ************************************* -->
+   <div id="home" class="landing-page">
+     <div class="overlay"></div>
+     <div class="container">
+       <div class="header-overlay">
+         <div class="header-section">
+           <div class="logo">
+             special design
+           </div>
+           <div class="ul-toggle-links">
+             <span></span>
+             <span></span>
+             <span></span>
+           </div>
+           <ul>
+             <li> <a href="#about" class="active">about</a></li>
+             <li><a href="#skills">skills</a></li>
+             <li><a href="#gallery">gallery</a></li>
+             <li><a href="#timeline">timeline</a></li>
+             <li><a href="#features">features</a></li>
+             <li><a href="#testimonials">testimonials</a></li>
+           </ul>
+         </div>
+       </div>
+       <div class="main-text">
+         <h1>we are<span id="creative" style="text-transform:uppercase; font-style: italic"> creative </span>agency</h1>
+         <p>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+         </p>
+       </div>
+     </div>
+   </div>
+   <div class="container">
+     <div id="about" class="about-us">
+       <div class="about-info">
+         <h4>About us</h4>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam.tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam  </p>
+       </div>
+       <div class="about-img">
+         <img src="images/9.jpg" alt="">
+       </div>
+     </div>
+   </div>
+   <div class="skills-layer">
+     <div class="container">
+       <div id="skills" class="skills">
+         <div class="skills-header">
+           <h4>our skills</h4>
+         </div>
+         <div class="skills-progress">
+           <div class="skill-progress">
+             <p><span>HTML</span><progress value="92" max="100" data-value="92">92%</progress></p>
+           </div>
+           <div class="skill-progress">
+             <p><span>css</span><progress value="82" max="100" data-value="82">82%</progress></p>
+           </div>
+           <div class="skill-progress">
+             <p><span>javascript</span><progress value="72" max="100" data-value="72">72%</progress></p>
+           </div>
+           <div class="skill-progress">
+             <p><span>python</span><progress value="92" max="100" data-value="92">92%</progress></p>
+           </div>
+           <div class="skill-progress">
+             <p><span>php</span><progress value="62" max="100" data-value="62">62%</progress></p>
+           </div>
+           <div class="skill-progress">
+             <p><span>mysql</span><progress value="62" max="100" data-value="62">62%</progress></p>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="container">
+     <div id="gallery" class="gallery">
+       <div class="gallery-header">
+         <h4>Our gallery</h4>
+       </div>
+       <div class="gallery-images">
+         <img src="images/1.jpg" alt="Labtop">
+         <img src="images/2.jpg" alt="Labtop">
+         <img src="images/3.jpg" alt="Labtop">
+         <img src="images/4.jpg" alt="Labtop">
+         <img src="images/5.jpg" alt="Labtop">
+         <img src="images/6.jpg" alt="Labtop">
+         <img src="images/7.jpeg" alt="Labtop">
+         <img src="images/10.jpg" alt="Labtop">
+       </div>
+     </div>
+   </div>
+   <div class="popup-overlay">
+     <div class="popup-box">
+       <div class="popup-info">
+         <p>hello</p>
+         <i class="fas fa-times-circle xmark"></i>
+       </div>
+       <div class="popup-image">
+        <img src="" alt="">
+       </div>
+     </div>
+   </div>
+<!--
+******************************************
+            Start imeline
+******************************************  -->
+   <div class="timeline-overlay">
+     <div id="timeline" class="timeline">
+
+       <div class="container left">
+         <div class="year">
+           2020
+         </div>
+         <div class="content">
+           <h3>web dseigner at code95</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+             Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+         </div>
+       </div>
+       <div class="container right">
+         <div class="content">
+          <h3>web dseigner at code95</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+           Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <h3>web dseigner at code95</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="container left">
+        <div class="year">
+          2018
+        </div>
+        <div class="content">
+          <h3>web dseigner at code95</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+   </div>
+<!--
+******************************************
+           End imeline
+******************************************  -->
+<!--
+******************************************
+           Start Features
+******************************************  -->
+
+<div id="features" class="features">
+  <div class="container">
+    <h1>Our Features</h1>
+    <div class="features-boxes">
+      <div class="feature-box">
+        <div class="feature-img">
+          <img src="images/programming.svg" alt="">
+        </div>
+        <div class="feature-info">
+          <h3>Development</h3>
+          <hr class="underline">
+          <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+        </div>
+      </div>
+      <div class="feature-box">
+        <div class="feature-img">
+          <img src="images/advertising.svg" alt="">
+        </div>
+        <div class="feature-info">
+          <h3>Marketing</h3>
+          <hr class="underline">
+          <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+        </div>
+      </div>
+      <div class="feature-box">
+        <div class="feature-img">
+          <img src="images/hosting-icon.svg" alt="">
+        </div>
+        <div class="feature-info">
+          <h3>Hosting</h3>
+          <hr class="underline">
+          <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+        </div>
+      </div>
+      <div class="feature-box">
+        <div class="feature-img">
+          <img src="images/web-design.svg" alt="">
+        </div>
+        <div class="feature-info">
+          <h3>Mobile Develope</h3>
+          <hr class="underline">
+          <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+        </div>
+      </div>
+      <div class="feature-box">
+        <div class="feature-img">
+          <img src="images/mobile-app.svg" alt="">
+        </div>
+        <div class="feature-info">
+          <h3>Cloud and Servers</h3>
+          <hr class="underline">
+          <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+        </div>
+      </div>
+      <div class="feature-box">
+        <div class="feature-img">
+          <img src="images/graphic-design.svg" alt="">
+        </div>
+        <div class="feature-info">
+          <h3>Seo</h3>
+          <hr class="underline">
+          <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--
+******************************************
+           End Features
+******************************************  -->
+<!--
+******************************************
+           Start testimonials
+******************************************  -->
+<div id="testimonials" class="testimonials">
+  <h1>Testimonials</h1>
+  <div class="container">
+    <div class="ts-boxes">
+      <div class="ts-box">
+        <p>Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+        <div class="ts-author">
+          <div class="author-image">
+            <img src="https:placehold.it/80/ddd" alt="">
+          </div>
+          <div class="author-info">
+            <h4>author name</h4>
+            <h6>author job</h6>
+          </div>
+        </div>
+      </div>
+      <div class="ts-box">
+        <p>Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+        <div class="ts-author">
+          <div class="author-image">
+            <img src="https:placehold.it/80/ddd" alt="">
+          </div>
+          <div class="author-info">
+            <h4>author name</h4>
+            <h6>author job</h6>
+          </div>
+        </div>
+      </div>
+      <div class="ts-box">
+        <p>Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+        <div class="ts-author">
+          <div class="author-image">
+            <img src="https:placehold.it/80/ddd" alt="">
+          </div>
+          <div class="author-info">
+            <h4>author name</h4>
+            <h6>author job</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="contact-us">
+  <h1>Contact Us</h1>
+  <div class="contact-form container">
+   <form class="" action="#home" method="get">
+    <div class="contact-details">
+     <input type="text" name="name" value="" placeholder=" Your Name">
+     <input type="phone" name="name" value="" placeholder=" Your Phone">
+     <input type="Email" name="name" value="" placeholder=" Your Email">
+     <input type="text" name="name" value="" placeholder=" Subject">
+    </div>
+    <div class="contact-message">
+     <textarea name="message"  placeholder="Your Message"></textarea>
+     <button type="submit" name="button">Send</button>
+    </div>
+   </form>
+  </div>
+</div>
+   <script src="js/jscript.js" charset="utf-8"></script>
+   <script src="https://kit.fontawesome.com/a1868a2f1c.js" crossorigin="anonymous"></script>
+  </body>
+</html>
